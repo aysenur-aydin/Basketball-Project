@@ -1,0 +1,68 @@
+/*! FOR SCRIMBA PAGE */
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+h3 {
+    font-family: Verdana;
+    color: #EEEEEE;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#p-score {
+    background-color: #080001;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    width: 75px;
+    height: 60px;
+    left: 82px;
+    top: 125px;
+}
+
+#p-score-num {
+    font-family: 'Cursed Timer ULiL';
+    color: #F94F6D;
+    margin: auto;
+    align-items: center;
+    
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: 70;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    justify-content: space-between;
+    width: 100px;
+}
+
+button {
+    font-family: 'Cursed Timer ULiL';
+    color: #9AABD8;
+    border-color: #9AABD8;
+    background: none;
+    padding: 3px;
+}
+
+.new-game button{
+    display: flex;
+    margin: 10px auto;
+    background-color: #080001;
+}
